@@ -1,0 +1,14 @@
+ document.addEventListener('DOMContentLoaded', function () {
+  const burger = document.getElementById('burger'); // id bo'lishi shart
+  const menu = document.getElementById('menu');
+
+  if (burger && menu) {
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      menu.classList.toggle('active');
+    });
+  } else {
+    console.error('burger yoki menu elementi topilmadi!');
+  }
+});
+
