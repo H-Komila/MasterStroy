@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/main.css">
   <title>Document</title>
 </head>
@@ -437,23 +438,111 @@
 
 <!-- -----------------wrapper------------ -->
 
-<div class="wrapper">
+<div class="slider">
+  <button class="prev">&#10094;</button>
+  <div class="slides-container">
+    <div class="slide active">
+      <img src="./images/d.png" alt="Image 1" />
+    </div>
+    <div class="slide">
+      <img src="./images/d1.png" alt="Image 2" />
+    </div>
+    <div class="slide">
+      <img src="./images/d2.png" alt="Image 3" />
+    </div>
+    <div class="slide">
+      <img src="./images/d3.png" alt="Image 4" />
+    </div>
+    <div class="slide">
+      <img src="./images/d4.png" alt="Image 5" />
+    </div>
+    <!-- Qo'shimcha rasmlar... -->
+  </div>
+  <button class="next">&#10095;</button>
+</div>
+
+<!-- -------------------sidebar------------- -->
+
+<div class="sidebar">
   <div class="container">
-    <div class="wrapper__container">
-       <h5 class="title">Наши работы</h5>
-       <p class="wrapper__text">Отделка участка, сада, входной группы или любой другой частной территории требует большого внимания со стороны владельца, поскольку именно эти зоны являются «лицом», а значит и престижем вашего дома или коммерческого объекта. Подбор прочного и эстетически презентабельного материала для оформления входа, дорожек, пешеходных зон – это уже половина успеха отделки. Вторая половина – это, безусловно, грамотная укладка, обеспечивающая долговечность покрытия.</p>
-       <ul class="wrapper__list">
-        <li class="wrapper__item">
-            im
-        </li>
-       </ul>
+    <div class="sidebar__container">
+      <h1 class="title1">Наши преимущества</h1>
+         <ul class="sidebar__list">
+          <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/01.png" alt="">
+              <h6 class="sidebar__title">Тротуарная плитка от производителя в широком ассортименте</h6>
+              <p class="sidebar__text">На сайте вы сможете подобрать прессованную, вибролитую или фасадную плитку, блоки и бордюры, водостоки, крышки на столбы и многое другое.</p>
+          </li>
+           <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/02.png" alt="">
+              <h6 class="sidebar__title">Высокий уровень сервиса обслуживания</h6>
+              <p class="sidebar__text">Наши менеджеры всегда вежливые и профессиональные в работе с клиентами, они готовы помочь с выбором нужной модели и ответить на все вопросы клиента.</p>
+          </li>
+           <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/03.png" alt="">
+              <h6 class="sidebar__title">Услуги команды опытных специалистов по монтажу</h6>
+              <p class="sidebar__text">Наша компания предлагает услуги профессиональной укладки и другие работы по благоустройству частных территорий.</p>
+          </li>
+           <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/04.png" alt="">
+              <h6 class="sidebar__title">Быстрая и удобная доставка</h6>
+              <p class="sidebar__text">Развоз заказов осуществляется при помощи спецтехники – манипулятора, облегчающего процесс погрузки и разгрузки по Волоколамскому, Лотошинскому, Шаховскому району, Истре, Клину, Рузе.</p>
+          </li>
+           <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/05.png" alt="">
+              <h6 class="sidebar__title">ТДемократичная стоимость</h6>
+              <p class="sidebar__text">Если вы хотите подобрать и купить тротуарную плитку по наиболее выгодной цене в регионе – вам однозначно в «Мастер Строй»! У нас всегда первая цена напрямую от производителя!</p>
+          </li>
+           <li class="sidebar__item">
+              <img class="sidebar__img" src="./images/06.png" alt="">
+              <h6 class="sidebar__title">Безупречный контроль качества продукции</h6>
+              <p class="sidebar__text">Все материалы соответствуют техническим нормам ГОСТа, а тщательный контроль позволяет исключить риск попадания брака в партию.</p>
+          </li>
+         </ul>
     </div>
   </div>
 </div>
 
 
+<!-- ------------footer----------- -->
 
-
+<footer class="footer">
+  <div class="container">
+    <div class="footer__container">
+       <ul class="footer__list1">
+        <li class="footer__item">
+          <a class="footer__link" href=""><h1 class="footer__title">Магазин</h1></a>
+           <a class="footer__link" href=""><p class="footer__text">Петрсональный раздел</p></a>
+           <a class="footer__link" href=""><i class="fa-solid fa-clock"></i>Режим работы: с 8:00 до 20:00</i></a> <br>
+           <a class="footer__link" href=""><i class="fa-solid fa-phone"></i>+7 (926) 105-94-14 <br>+7 (910) 470-67-97 <br> +7 (499) 994-90-99</a>
+        </li>
+       </ul>
+       <ul class="footer__list">
+        <li class="footer__item">
+            <a class="footer__link" href=""><h1 class="footer__title">Каталог</h1></a>
+           <a class="footer__link" href=""><p class="footer__text">Акции</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Тротуарная плитка</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Бордюры</p></a>
+        </li>
+         <li class="footer__item">
+            <a class="footer__link" href=""><h1 class="footer__title">Сервисы</h1></a>
+           <a class="footer__link" href=""><p class="footer__text">Дизайн-проект</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Укладка брусчатки</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Доставка</p></a>
+        </li>
+         <li class="footer__item">
+            <a class="footer__link" href=""><h1 class="footer__title">О компании</h1></a>
+           <a class="footer__link" href=""><p class="footer__text">Контакты</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Завод BRAER</p></a>
+           <a class="footer__link" href=""><p class="footer__text">Портфолио</p></a>
+        </li>
+       </ul>
+    </div>
+     <span class="footer__span">
+        <a class="footer__link" href=""><p class="footer__text1">© 2022 ООО "Мастер строй"</p></a>
+       </span>
+  </div>
+</footer>
 
 
 
